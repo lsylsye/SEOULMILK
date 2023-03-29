@@ -80,6 +80,7 @@ body {
     font-family: 'NanumSquare_Regular';
     line-height: 1;
     color: #333;
+    min-width: 1920px;
 }
 h3 {
     font-family: 'SEOULMILK 500mL';
@@ -89,7 +90,7 @@ h3 {
 
 /*******🧀main_visual🧀*******/
 .main_visual {
-    width: 100vw;
+    width: 1920px;
     height: 820px;
     margin: 0 auto;
     position: relative;
@@ -119,7 +120,7 @@ h3 {
 /*******🧀header🧀*******/
 
 header {
-    width: 100vw;
+    width: 1920px;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -229,7 +230,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 
 /*******🧀cont01🧀*******/
 .cont01 {
-    width: 100vw;
+    width: 1920px;
     height: 568px;
     margin: 156px auto;
 }
@@ -305,7 +306,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 }
 /*******🧀cont02🧀*******/
 .cont02 {
-    width: 100vw;
+    width: 1920px;
     height: 750px;
     margin: 0 auto;
     position: relative;
@@ -420,7 +421,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 
 /*******🧀cont03🧀*******/
 .cont03 {
-    width: 100vw;
+    width: 1920px;
     margin: 156px auto;
 }
 .cont03 .title {
@@ -524,7 +525,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 
 /*******🧀cont04🧀*******/
 .cont04 {
-    width: 100vw;
+    width: 1920px;
     margin: 0 auto;
 }
 .cont04 .title .list {
@@ -585,7 +586,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 
 /*******🧀sub_banner🧀*******/
 .sub_banner {
-    width: 100vw;
+    width: 1920px;
     margin: 0 auto;
     padding: 156px 0;
 }
@@ -604,7 +605,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 }
 /*******🧀cont05🧀*******/
 .cont05 {
-    width: 100vw;
+    width: 1920px;
     margin: 0 auto;
     padding-bottom: 156px;
 }
@@ -678,7 +679,7 @@ header .inner nav .gnb .depth01 .depth02 li:hover {
 
 /*******🧀footer🧀*******/
 footer {
-    width: 100vw;
+    width: 1920px;
     height: 346px;
     margin: 0 auto;
     background-color: black;

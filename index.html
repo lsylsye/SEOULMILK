@@ -6,8 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>서울우유</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="css/main.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        $(function () {
+            var swiper = new Swiper(".main", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                effect: 'fade',
+                speed: 3500,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+
+            });
+        }); 
+    </script>
 </head>
 
 <body>
@@ -77,11 +97,23 @@
 
     <!-- ****🧀main_visual🧀**** -->
     <section class="main_visual">
-        <img src="img/3_main_visual.gif" alt="" />
-        <div>
+        <div class="swiper main">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/main_visual_1.png" alt="" />
+                </div> <!--swiper-slide 1 -->
+                <div class="swiper-slide">
+                    <img src="img/main_visual_2.png" alt="" />
+                </div> <!--swiper-slide 2 -->
+                <div class="swiper-slide">
+                    <img src="img/main_visual_3.png" alt="" />
+                </div> <!--swiper-slide 3 -->
+            </div>
+        </div>
+        <div class="title">
             <h2 class="animate__fadeInDown animate__animated">우유에</br>진심을 담다</h2>
             <p class="animate__fadeInDown animate__animated">무엇과 타협하지 않는 원칙과 신념</p>
-        </div>
+        </div> <!-- .title end -->
     </section>
 
     <!-- ****🧀cont01🧀**** -->

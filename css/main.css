@@ -80,7 +80,8 @@ body {
     font-family: 'NanumSquare_Regular';
     line-height: 1;
     color: #333;
-    min-width: 1920px;
+    min-width: 1900px;
+    overflow-x: hidden;
 }
 h3 {
     font-family: 'SEOULMILK 500mL';
@@ -93,7 +94,7 @@ h3 {
     position: relative;
 }
 .main_visual .swiper.main {
-    width: 100vw;
+    width: 100%;
     height: 88vh;
     margin: 0 auto;
     position: relative;
@@ -109,7 +110,10 @@ h3 {
     display: block;
     z-index: 9;
 }
-.main_visual .swiper.main img {
+.main_visual .swiper-slide {
+    width: 100%;
+}
+.main_visual .swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
